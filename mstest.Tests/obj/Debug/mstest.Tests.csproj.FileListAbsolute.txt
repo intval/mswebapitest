@@ -43,3 +43,7 @@ c:\users\sasha\documents\visual studio 2012\Projects\mstest\mstest.Tests\obj\Deb
 c:\users\sasha\documents\visual studio 2012\Projects\mstest\mstest.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 c:\users\sasha\documents\visual studio 2012\Projects\mstest\mstest.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 c:\users\sasha\documents\visual studio 2012\Projects\mstest\mstest.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\sasha\documents\visual studio 2012\Projects\mstest\mstest.Tests\bin\Debug\AttributeRouting.Web.Http.dll
+c:\users\sasha\documents\visual studio 2012\Projects\mstest\mstest.Tests\bin\Debug\AttributeRouting.Web.Http.WebHost.dll
+c:\users\sasha\documents\visual studio 2012\Projects\mstest\mstest.Tests\bin\Debug\AttributeRouting.Web.Http.xml
+c:\users\sasha\documents\visual studio 2012\Projects\mstest\mstest.Tests\bin\Debug\AttributeRouting.Web.Http.WebHost.xml

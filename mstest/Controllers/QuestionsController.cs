@@ -13,10 +13,9 @@ namespace mstest.Controllers
     {
         private IQuestionsRepository repo;
 
-        public QuestionsController(IQuestionsRepository repo)
+        public QuestionsController(IQuestionsRepository repository)
         {
-            repo = repo;
-            repo.Add(new Question { QuestionText = "what"});
+            repo = repository;
         }
 
         // GET api/values

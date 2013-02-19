@@ -29,10 +29,12 @@ namespace mstest.DependencyResolution {
                                         scan.WithDefaultConventions();
                                     });
 
-                            x.For<IQuestionsRepository>().Use<QuestionRepository>();
+                            x.For<IQuestionsRepository>().Use(new QuestionRepository());
             //                x.For<IExample>().Use<Example>();
                         });
             return ObjectFactory.Container;
         }
+
+        
     }
 }

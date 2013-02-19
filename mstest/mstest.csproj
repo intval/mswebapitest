@@ -50,9 +50,6 @@
     <Reference Include="AttributeRouting.Web.Http">
       <HintPath>..\packages\AttributeRouting.Core.Http.3.4.2\lib\net40\AttributeRouting.Web.Http.dll</HintPath>
     </Reference>
-    <Reference Include="AttributeRouting.Web.Http.SelfHost">
-      <HintPath>..\packages\AttributeRouting.WebApi.Hosted.3.4.2\lib\net40\AttributeRouting.Web.Http.SelfHost.dll</HintPath>
-    </Reference>
     <Reference Include="AttributeRouting.Web.Http.WebHost">
       <HintPath>..\packages\AttributeRouting.WebApi.3.4.2\lib\net40\AttributeRouting.Web.Http.WebHost.dll</HintPath>
     </Reference>
@@ -82,9 +79,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Http.SelfHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.SelfHost.4.0.20918.0\lib\net40\System.Web.Http.SelfHost.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
@@ -161,7 +155,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\StructuremapMvc.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="AttributeRouting.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\QuestionsController.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
