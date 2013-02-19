@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using AttributeRouting.Web.Http;
 
 namespace mstest.Controllers
 {
@@ -19,6 +20,7 @@ namespace mstest.Controllers
         }
 
         // GET api/values
+        [GET("bla")]
         public List<Question> Get()
         {
             return repo.getAll();
